@@ -16,16 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.11
     - flit-core >=3.2,<4
     - pip
-    - django >=3.0
   run:
-    - python >=3.8
-    - django >=3.0
-    - wagtail >=4.0
-    - langchain >=0.0.106
-    - tiktoken >=0.3.0
+    - python >=3.11
+    - django >=4.2
+    - wagtail >=5.2
+    - llm >=0.12
 
 test:
   imports:
