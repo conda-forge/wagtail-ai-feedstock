@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.11
+    - python >=3.8
     - flit-core >=3.2,<4
     - pip
   run:
-    - python >=3.11
+    - python >=3.8
     - django >=4.2
     - wagtail >=5.2
     - llm >=0.12
