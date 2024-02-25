@@ -1,5 +1,5 @@
 {% set name = "wagtail-ai" %}
-{% set version = "2.0.1" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail_ai-{{ version }}.tar.gz
-  sha256: 50ed9e47522b07231852e563f6c13432a767c5f30810408d945d5a0b6a18ff4a
+  sha256: bae9a130f31b7a4f35e5776ede6d8f302672477c49b2c79adc6680cb16cdf261
 
 build:
   noarch: python
@@ -21,9 +21,10 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - django >=4.2
-    - wagtail >=5.2
-    - llm >=0.12
+    - django >=3.0
+    - wagtail >=4.0
+    - langchain >=0.0.106
+    - tiktoken >=0.3.0
 
 test:
   imports:
