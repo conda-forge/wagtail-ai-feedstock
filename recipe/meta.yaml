@@ -21,10 +21,10 @@ requirements:
     - flit-core >=3.2,<4
     - pip
   run:
-    - django-ai-core
     - python >={{ python_min }}
     - django >=4.2
     - wagtail >=7.1
+    - django-ai-core
     - llm >=0.12
 
 test:
