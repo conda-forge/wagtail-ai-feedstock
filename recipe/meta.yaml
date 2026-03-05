@@ -1,5 +1,5 @@
 {% set name = "wagtail-ai" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wagtail_ai-{{ version }}.tar.gz
-  sha256: 4e1dd7c8dc6dc7a2a0a2a26a13536a61834cbcce9723500996287409b4176937
+  sha256: 377a8a179c5272a31b8b9ea26a2b5c792a3a5ffecc4b364b5df2ea472582958d
 
 build:
   noarch: python
